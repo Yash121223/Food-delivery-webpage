@@ -1,0 +1,69 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Unbounded', cursive;
+}
+
+/* navigation section  */
+#navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+ul li a {
+    font-size: 0.6rem;
+    padding: 0px 8px;
+}
+
+
+/* Home section  */
+#home {
+    height: 280px;
+    width: 240px;
+    padding: 0px 75px;
+
+}
+
+#home p {
+    font-size: 15px;
+}
+
+#home::before {
+    height: 500px;
+}
+
+.primary-heading {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Services section  */
+#service {
+    flex-direction: column;
+}
+
+.services-container {
+    margin-top: 34px;
+}
+
+/* client section  */
+#client-section {
+    overflow: hidden;
+}
+
+#client-section img {
+    height: 60px;
+    width: 60px;
+    flex-wrap: wrap;
+}
+
+.client-item {
+    padding: 30px 15px;
+}
+
+
+/* Contact section  */
+.contact {
+    overflow: hidden;
+}
